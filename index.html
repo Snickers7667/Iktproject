@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A piramis játék</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="hatterfull">
+    <header>
+        <h1>1. pont – A kezdet</h1>
+        <hr>
+    </header>
+    <div class="hatter">
+        <h2>Üdvözöllek kedves utazó! </h2>
+           <h2>Mi lenne néked a becses neved?</h2> 
+
+                <p id="nevgomb"><label for="nameInput">Neved:</label>
+    <input type="text" id="nameInput" placeholder="Írd be a neved...">
+    <button onclick="storeName()">Mentés</button></p>
+
+        <p>Most érkeztél meg Londonból a sivatagokba, hogy miért jöttél ide pontosan? 
+        Eléggé egyértelmű szerintem, felfedezni a piramist mivel sokan belehalltak a kutatás közepette.</p>
+
+        <p>Mivel sokan eltüntek a piramis belsejébe azért elvan zárva őrökkel.
+            Ezért eldöntöd, hogy este mész és beszöksz szépen.
+            Magaddal vittél egy pár dolgot kis tasakodba, egy kés, gyújtó, némi élelmiszer, nagyitó, kesztyű stb hasznos eszközt.
+        </p>
+        <p>
+            Az a nagy kérdés bemersz-e merészkedni a piramisba vagy hazamész és hagyod a picsába
+        </p>
+
+        <div style="display: flex; justify-content: center;">
+        <button class="közep"><a href="piramis1.html">Beosonsz a piramisba lapozz a 2. pontra</a></button>
+        <button class="közep"><a href="hazamegy.html">Hazamész lapozz a 3. pontra</a></button>
+        </div>
+
+    </div>
+    <footer>
+
+    </footer>
+</div>
+
+    <script>
+        // A név tárolása
+        let userName = "";
+
+        function storeName() {
+            userName = document.getElementById('nameInput').value;
+            console.log("A felhasználó neve: " + userName);
+            
+            // Ha később szeretnél dolgozni vele, itt a 'userName' változóban megtalálható a név.
+        }
+    </script>
+
+</body>
+</html>

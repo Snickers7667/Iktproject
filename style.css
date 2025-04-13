@@ -1,0 +1,254 @@
+
+
+body {
+    background-color: black;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+}
+
+p {
+   text-align: center;
+   font-size: x-large;
+   font-style: italic;
+   font-weight: bold;
+}
+
+h2 {
+    text-align: center;}
+#nevgomb {
+    margin: 50px;
+    font-size: xx-large;
+}
+
+input {
+    display: inline-block;
+    margin: 20px auto;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 400px;
+    justify-content: center;
+}
+
+button {
+    display: inline-block;
+    margin: 20px 18px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    justify-content: center;
+}
+
+button:hover {
+    background-color: rgba(0,0,225,0.9);
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.hatter {
+    background-image: url(pyramid-6638964_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh; 
+    margin: 0;
+}
+
+.hatter_haza {
+    background-image: url(happy-family-silhouette-standing-against-sunset-time-153316250.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh; 
+    margin: 0;
+}
+
+.sarga {
+    background-color: orangered;
+}
+
+.sarga:hover {
+    background-color: rgba(255, 69, 0, 0.7);
+}
+
+.hatter_piramis1{
+    background-image: url(28b22673-0096-4396-ba73-d3a155e22735.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh; 
+    margin: 0;
+}
+
+.hatter_utelagazas{
+    background-image: url(d290c40d-b36e-4e5c-be4f-c8842bfd59f2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh; 
+    margin: 0;
+}
+
+.mumia{
+    background-image: url(f4d16e8a-520e-4ec4-8b38-ba903e34b3ee.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh; 
+    margin: 0;
+}
+
+
+.jatek1 {
+    background-image: url('csavo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh; 
+    margin: 0;
+}
+
+.kint {
+    background-image: url('kint.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh; 
+    margin: 0;
+}
+
+.fallend {
+    background-image: url('eses.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh; 
+    margin: 0;
+}
+
+.kettofele {
+    background-image: url('ket\ ut.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh; 
+    margin: 0;
+}
+
+.story10kep {
+    background-image: url('story11kep.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh; 
+    margin: 0;
+}
+
+.story11kep {
+    background-image: url('story11kep.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh; 
+    margin: 0;
+}
+
+.story12kep {
+    background-image: url('story12kep.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh; 
+    margin: 0;
+}
+
+
+.story13kep {
+    background-image: url('story13kep.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh; 
+    margin: 0;
+}
+
+
+.story14kep {
+    background-image: url('story14kep.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh; 
+    margin: 0;
+}
+
+
+.story15kep {
+    background-image: url('story15kep.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh; 
+    margin: 0;
+}
+
+
+.story16kep {
+    background-image: url('story16kep.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh; 
+    margin: 0;
+}
+
+
+.story17kep {
+    background-image: url('story17kep.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh; 
+    margin: 0;
+}
+
+.story18kep {
+    background-image: url('story18kep.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh; 
+    margin: 0;
+}
+
+.story19kep {
+    background-image: url('story19kep.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh; 
+    margin: 0;
+}
+
+.story20kep {
+    background-image: url('story20kep.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh; 
+    margin: 0;
+}
+
